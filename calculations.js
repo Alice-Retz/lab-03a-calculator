@@ -1,5 +1,5 @@
 export function add(addX, addY) {
-
+    return addX + addY;
 }
 export function subtract(subx, suby) {
     return subx - suby;
