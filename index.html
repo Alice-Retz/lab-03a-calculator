@@ -18,65 +18,92 @@
     </header>
     
     <main>
+<div id="wrapper">
+<div class="equations">
+        <div>
 <!-- addition function -->
         <input type="number" id="add-x">
         <span class="punctuation">+</span>
         <input type="number" id="add-y">
         <span class="punctuation">=</span>
-        <span id ="add-answer">?</span>
+        <span id ="add-answer" class="solution">?</span>
         <button id="add-btn">Add</button> 
+        </div>
+        <div>
 <!-- subtraction function -->
         <input type="number" id="sub-x">
         <span class="punctuation">-</span>
         <input type="number" id="sub-y">
         <span class="punctuation">=</span>
-        <span id ="sub-answer">?</span>
+        <span id ="sub-answer" class="solution">?</span>
         <button id="sub-btn">Subtract</button>
-        <hr>
+        </div>
+</div>
+ 
+<div class="equations">
+        <div>
 <!-- multiply function -->
-        <input type="number" id="multi-x">
+        <p></p><input type="number" id="multi-x">
         <span class="punctuation">*</span>
         <input type="number" id="multi-y">
         <span class="punctuation">=</span>
-        <span id ="multi-answer">?</span>
+        <span id ="multi-answer" class="solution">?</span>
         <button id="multi-btn">Multiply</button>
+        </div>
+        <div>
 <!-- divide function -->
         <input type="number" id="divi-x">
         <span class="punctuation">/</span>
         <input type="number" id="divi-y">
         <span class="punctuation">=</span>
-        <span id ="divi-answer">?</span>
+        <span id ="divi-answer" class="solution">?</span>
         <button id="divi-btn">Divide</button>
-        <hr>
+        </div>
+</div>       
+
+<div class="equations">
+        <div>
 <!-- modulo function -->
-        <input type="number" id="modulo-x">
+        <p></p><input type="number" id="modulo-x">
         <span class="punctuation">mod</span>
         <input type="number" id="modulo-y">
         <span class="punctuation">=</span>
-        <span id ="modulo-answer">?</span>
+        <span id ="modulo-answer" class="solution">?</span>
         <button id="modulo-btn">Modulo</button>
+        </div>
+        <div>
 <!-- integer function -->
         <input type="number" id="int-x">
         <span class="punctuation">//</span>
         <input type="number" id="int-y">
         <span class="punctuation">=</span>
-        <span id ="int-answer">?</span>
+        <span id ="int-answer" class="solution">?</span>
         <button id="int-btn">Integer</button>
-        <hr>
+        </div>
+</div>
+
+<div class="equations">
+        <div class="bottom-row">
 <!-- pythagorean function -->
-        <input type="number" id="pyt-x">
+        <p></p><input type="number" id="pyt-x">
         <span class="punctuation">^2+</span>
         <input type="number" id="pyt-y">
         <span class="punctuation">^2=</span>
-        <span id ="pyt-answer">?</span>
+        <span id ="pyt-answer" class="solution">?</span>
         <button id="pyt-btn">Pythagorean Theorem</button>
+        </div> 
+        <div class="bottom-row">
 <!-- sqFeet function -->
+        <span class="punctuation">(</span>
         <input type="number" id="sqf-x">
         <span class="punctuation">*</span>
         <input type="number" id="sqf-y">
-        <span class="punctuation">=</span>
-        <span id ="sqf-answer">?</span>
+        <span class="punctuation">)^2=</span>
+        <span id ="sqf-answer" class="solution">?</span>
         <button id="sqf-btn">Sq Feet</button>
+        </div>
+</div>
+</div>
     </main>
 
     <footer>
