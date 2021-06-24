@@ -11,7 +11,6 @@ addBtn.addEventListener('click', ()=>{
     const addX = Number(addXInput.value);
     const addY = Number(addYInput.value);
     const answer = add(addX, addY);
-    console.log(answer);
     addAnswer.textContent = answer;
 });
 //subtraction
@@ -24,7 +23,6 @@ subBtn.addEventListener('click', ()=>{
     const subX = Number(subXInput.value);
     const subY = Number(subYInput.value);
     const answer = subtract(subX, subY);
-    console.log(answer);
     subAnswer.textContent = answer;
 });
 //multiply
@@ -37,7 +35,6 @@ multiBtn.addEventListener('click', ()=>{
     const multiX = Number(multiXInput.value);
     const multiY = Number(multiYInput.value);
     const answer = multiply(multiX, multiY);
-    console.log(answer);
     multiAnswer.textContent = answer;
 });
 //divide
@@ -50,7 +47,6 @@ diviBtn.addEventListener('click', ()=>{
     const diviX = Number(diviXInput.value);
     const diviY = Number(diviYInput.value);
     const answer = divide(diviX, diviY);
-    console.log(answer);
     diviAnswer.textContent = answer;
 });
 //modulo
@@ -63,7 +59,6 @@ moduloBtn.addEventListener('click', ()=>{
     const moduloX = Number(moduloXInput.value);
     const moduloY = Number(moduloYInput.value);
     const answer = modulo(moduloX, moduloY);
-    console.log(answer);
     moduloAnswer.textContent = answer;
 });
 //integer
@@ -76,7 +71,6 @@ intBtn.addEventListener('click', ()=>{
     const intX = Number(intXInput.value);
     const intY = Number(intYInput.value);
     const answer = integer(intX, intY);
-    console.log(answer);
     intAnswer.textContent = answer;
 });
 //pythagorean
@@ -89,7 +83,6 @@ pytBtn.addEventListener('click', ()=>{
     const pytX = Number(pytXInput.value);
     const pytY = Number(pytYInput.value);
     const answer = pythagorean(pytX, pytY);
-    console.log(answer);
     pytAnswer.textContent = answer;
 });
 //sqFeet
@@ -102,6 +95,5 @@ sqfBtn.addEventListener('click', ()=>{
     const sqfX = Number(sqfXInput.value);
     const sqfY = Number(sqfYInput.value);
     const answer = sqfeet(sqfX, sqfY);
-    console.log(answer);
     sqfAnswer.textContent = answer;
 });
