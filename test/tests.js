@@ -1,8 +1,8 @@
 
-import { add } from '../calculations.js';
+import { subtract } from '../calculations.js';
 const test = QUnit.test;
-test('test adding', (expect) => {
-    const expected = 5;
-    const actual = add(2, 3);
+test('test subtraction', (expect) => {
+    const expected = 2;
+    const actual = subtract(5, 3);
     expect.equal(actual, expected);
 });
