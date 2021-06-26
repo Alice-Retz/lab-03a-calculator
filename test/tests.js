@@ -1,8 +1,8 @@
 
-import { multiply } from '../calculations.js';
+import { divide } from '../calculations.js';
 const test = QUnit.test;
-test('test multiplication', (expect) => {
-    const expected = 15;
-    const actual = multiply(5, 3);
+test('test division', (expect) => {
+    const expected = 5;
+    const actual = divide(15, 3);
     expect.equal(actual, expected);
 });
