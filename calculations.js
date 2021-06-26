@@ -2,10 +2,10 @@ export function add(addX, addY) {
     return addX + addY;
 }
 export function subtract(subx, suby) {
-
+    return subx - suby;
 }
 export function multiply(multix, multiy) {
-    return multix * multiy;
+    
 }
 export function divide(divix, diviy) {
     return divix / diviy;
